@@ -1,5 +1,5 @@
 fun main() {
-    val messages = listOf<String>("Heute ist ein wundervoller Tag", "Nutze den Tag", "Heute ist dein Glückstag")
+    val messages = listOf("Heute ist ein wundervoller Tag", "Nutze den Tag", "Heute ist dein Glückstag")
     val numOfSymbols = 20
 
     print("Wie soll ich dich nennen? ")
