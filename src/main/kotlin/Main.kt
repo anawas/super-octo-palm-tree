@@ -13,4 +13,7 @@ fun main() {
     for (i in 1..numOfSymbols) {
         print("-")
     }
+
+
+    // Ich will auch Code schreiben!
 }
