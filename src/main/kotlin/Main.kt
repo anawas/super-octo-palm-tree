@@ -1,5 +1,7 @@
 fun main() {
+    val messages = listOf<String>("Heute ist ein wundervoller Tag", "Nutze den Tag", "Heute ist dein Glückstag")
     val numOfSymbols = 20
+
     print("Wie soll ich dich nennen? ")
     val name = readln()
     for (i in 1..numOfSymbols) {
@@ -7,7 +9,7 @@ fun main() {
     }
     println()
     println("Hallo $name")
-    println("Heute ist ein wundervoller Tag")
+    println(messages.random())
     for (i in 1..numOfSymbols) {
         print("-")
     }
